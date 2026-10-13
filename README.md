@@ -19,7 +19,8 @@
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License: MIT" /></a>
-  <a href="https://github.com/doable-me/doable/stargazers"><img src="https://img.shields.io/github/stars/doable-me/doable?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/sufiyan-sabeel/Openable/stargazers"><img src="https://img.shields.io/github/stars/sufiyan-sabeel/Openable?style=social" alt="GitHub stars" /></a>
+  <a href="https://sufiyan-sabeel.github.io/Openable/"><img src="https://img.shields.io/badge/live%20site-Openable%20AI%20Builder-6B26D9" alt="Live site" /></a>
 </p>
 
 <p align="center">
@@ -36,7 +37,7 @@ Choose your path:
 
 ```bash
 # Try it locally in 60 seconds (Docker, no domain, no API keys required to boot)
-git clone https://github.com/doable-me/doable.git && cd doable && ./deployment/docker/setup.sh
+git clone https://github.com/sufiyan-sabeel/Openable.git && cd Openable && ./deployment/docker/setup.sh
 
 # Local dev (Node 22, pnpm, Postgres 16)
 pnpm install && cp .env.example .env && pnpm db:migrate && pnpm dev
@@ -49,7 +50,7 @@ pnpm install && cp .env.example .env && pnpm db:migrate && pnpm dev
 
 ```powershell
 # Try it locally in 60 seconds (Docker Desktop required)
-git clone https://github.com/doable-me/doable.git ; cd doable ; .\deployment\docker\setup.ps1
+git clone https://github.com/sufiyan-sabeel/Openable.git ; cd Openable ; .\deployment\docker\setup.ps1
 
 # Local dev (Node 22, pnpm, Postgres 16)
 pnpm install ; Copy-Item .env.example .env ; pnpm db:migrate ; pnpm dev
@@ -69,11 +70,11 @@ Open http://localhost, sign up. The first account becomes the platform owner aut
 
 Openable ships with manifests for every major full-stack PaaS. Pick the one that matches where you already host things. The same prebuilt images from `ghcr.io/doable-me/doable-*` back every path, so the deploy is ~30s once secrets are filled in.
 
-[![Deploy to DigitalOcean](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/doable-me/doable/tree/main)
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/doable-me/doable)
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template?template=https://github.com/doable-me/doable)
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/doable-me/doable)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/doable-me/doable?quickstart=1)
+[![Deploy to DigitalOcean](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/sufiyan-sabeel/Openable/tree/main)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/sufiyan-sabeel/Openable)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template?template=https://github.com/sufiyan-sabeel/Openable)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sufiyan-sabeel/Openable)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/sufiyan-sabeel/Openable?quickstart=1)
 
 Self-hosting? [Coolify](deployment/docker/coolify.md), [Fly.io](deployment/platforms/fly/DEPLOY.md), and [Kubernetes](deployment/platforms/k8s/README.md) are supported too.
 
@@ -410,16 +411,19 @@ pnpm install && pnpm dev
 
 ## Community
 
-- [Discord](https://discord.gg/doable) for chat with the team and community
-- [GitHub Issues](https://github.com/doable-me/doable/issues) for bug reports and feature requests
-- [GitHub Discussions](https://github.com/doable-me/doable/discussions) for questions and ideas
-- [Documentation](https://docs.doable.me) for full docs
+- [GitHub Issues](https://github.com/sufiyan-sabeel/Openable/issues) for bug reports and feature requests
+- [Documentation](docs/) for full docs
+- [Live site](https://sufiyan-sabeel.github.io/Openable/)
 
 ---
 
 ## License
 
 [MIT](LICENSE). Use it however you want.
+
+Openable is a rebrand of the open-source **Doable** project (MIT). The original
+copyright and third-party notices are retained in [LICENSE](LICENSE) and
+[NOTICE.md](NOTICE.md).
 
 ## Acknowledgments
 
